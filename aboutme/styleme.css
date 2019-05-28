@@ -1,0 +1,13 @@
+#desc{
+	font-size: 40px;
+	background-color: yellow;
+	color:red;
+}
+
+body{
+	background-color:aqua;
+	font-style: italic;
+	font-size: 14;
+	font-weight: bold;
+	font-family: serif;
+}
