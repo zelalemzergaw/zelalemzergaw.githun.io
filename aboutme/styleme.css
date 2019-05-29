@@ -6,8 +6,12 @@
 
 body{
 	background-color:aqua;
-	font-style: italic;
+	
 	font-size: 14;
 	font-weight: bold;
 	font-family: serif;
+}
+p{
+ color-rendering: green;
+ font-style: italic;
 }
