@@ -11,7 +11,7 @@ body{
 	font-weight: bold;
 	font-family: serif;
 }
-p{
- color-rendering: green;
+#rec{
+ font-size: 50px;
  font-style: italic;
 }
