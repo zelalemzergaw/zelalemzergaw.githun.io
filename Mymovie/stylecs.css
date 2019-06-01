@@ -123,3 +123,9 @@ p.reviewers{
     font-style: italic;
 }
 
+#banner{
+	background-image: url("bannerbg.png");
+	background-repeat: repeat-x;
+	text-align: center;
+
+}
