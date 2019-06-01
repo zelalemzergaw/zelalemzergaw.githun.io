@@ -13,6 +13,7 @@ body{
     background-repeat: repeat-x;
     text-align: center;
 
+
 }
 h1{
     text-align: center;
@@ -49,7 +50,7 @@ h1{
  #leftsec{
     width: 550px;
     float: left;
-    /* overflow: auto; */
+    overflow: auto; */
  }
  #top{
      background-image: url("rbg.png");
@@ -99,6 +100,7 @@ h1{
      width: 47%;
      margin-right: 2%;
      margin-left: 2%;
+
  }
  #leftright{
     margin-right: 2%;
@@ -124,8 +126,9 @@ p.reviewers{
 }
 
 #banner{
+	/*border: 2px solid red;*/
 	background-image: url("bannerbg.png");
 	background-repeat: repeat-x;
-	text-align: center;
+	
 
 }
