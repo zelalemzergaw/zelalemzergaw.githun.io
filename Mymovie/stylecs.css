@@ -1,11 +1,12 @@
 
 body{
-    background-image: url("background.png");
+    background-image: url("backgrounds.png");
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 8pt;
     margin: 0pt;
     padding: 0pt;
 }
+
 .header{
     background-image: url("bannerbg.png");
     background-repeat: repeat-x;
