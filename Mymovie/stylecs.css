@@ -50,7 +50,7 @@ h1{
  #leftsec{
     width: 550px;
     float: left;
-    overflow: auto; 
+    overflow: auto;
  }
  #top{
      background-image: url("rbg.png");
