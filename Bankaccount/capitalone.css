@@ -1,0 +1,127 @@
+.main{
+    position: relative;
+  
+      background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("image/background.jpg");
+  }
+  .top-icon{
+      background: #fff;
+      text-align: center;
+      display: inline;
+      position: relative;
+  }
+  #icon1{
+     width: 20%;
+      margin-left: 30%;
+  }
+  
+  #icon3{
+  
+      width: 140px;
+      height: 70px;
+  
+  }
+  .banner{
+      background-image: url("image/banner-background.jpg");
+      height: 250px;
+      background-repeat: repeat-x;
+      text-align: center;
+  }
+  /*
+  ul{
+      display:inline;
+  list-style-image: url("images/locked.png");
+  
+  }
+  */
+  p{
+      margin-top: 10px;
+     display: inline;
+  
+  }
+  ul{
+      background-color: red;
+      list-style: none;
+      display: inline;
+  }
+  #s{
+      list-style-image: url("image/locked.png");
+  }
+  #q{
+      list-style-image: url("image/locked.png");
+  }
+  #img1{
+      margin-top:20px;
+  }
+  .pp{
+     color: #009097;
+      font-weight: bold;
+  }
+  .pp2{
+      color: black;
+  }
+  .page{
+      text-align: left;
+      margin-left: 250px;
+      margin-right: 120px;
+  
+  }
+  td{
+      padding: 1em;
+  }
+  h2{
+      text-align: center;
+  }
+  select{
+      width: 700px;
+  }
+  #mn{
+      size: 5px;
+  }
+  #card{
+      padding-top: 20px;
+  }
+  .presonal{
+      display: inline;
+  text-align: left;
+  }
+  .presonal-left{
+      width: 600px;
+      margin:auto ;
+      padding: auto;
+      position: absolute;
+  }
+  .card{
+      margin-left:650px ;
+      margin-top: 50px;
+  }
+  .pp{
+      color: red;
+  }
+  #legend{
+      margin-left: 150px;
+      font-weight:bold;
+      font-size: 24px;
+  }
+  table{
+       background: #999999;
+  }
+  input[type="submit"]{
+      width: 100px;
+      height: 40px;
+      border-radius: 30px;
+      font-weight: bold;
+      background: yellow;
+  }
+  input[type="reset"]{
+      width: 100px;
+      height: 40px;
+      border-radius: 30px;
+      font-weight: bold;
+      background: yellow;
+  }
+  footer{
+      margin-top: 70px;
+    background-image: url("image/capitalone_logo.png");
+  }
+  
+  
