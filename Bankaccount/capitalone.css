@@ -110,14 +110,14 @@ input[type="submit"]{
     height: 40px;
     border-radius: 30px;
     font-weight: bold;
-    background: darkblue;
+    background: yellow;
 }
 input[type="reset"]{
     width: 100px;
     height: 40px;
     border-radius: 30px;
     font-weight: bold;
-    background: darkblue;
+    background: yellow;
 }
 footer{
     margin-top: 70px;
