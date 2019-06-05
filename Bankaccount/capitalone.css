@@ -1,7 +1,7 @@
 .main{
   position: relative;
 
-    background-image: url("images/background.jpg");
+    background-image: url("image/background.jpg");
 }
 .top-icon{
     background: #fff;
@@ -21,7 +21,7 @@
 
 }
 .banner{
-    background-image: url("images/banner-background.jpg");
+    background-image: url("image/banner-background.jpg");
     height: 250px;
     background-repeat: repeat-x;
     text-align: center;
@@ -44,10 +44,10 @@ ul{
     display: inline;
 }
 #s{
-    list-style-image: url("images/locked.png");
+    list-style-image: url("image/locked.png");
 }
 #q{
-    list-style-image: url("images/locked.png");
+    list-style-image: url("image/locked.png");
 }
 #img1{
     margin-top:20px;
@@ -121,5 +121,5 @@ input[type="reset"]{
 }
 footer{
     margin-top: 70px;
-  background-image: url("images/capitalone_logo.png");
+  background-image: url("image/capitalone_logo.png");
 }
