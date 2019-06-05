@@ -1,7 +1,7 @@
 .main{
   position: relative;
 
-    background-image-image: url("images/background.jpg");
+    background-image: url("images/background.jpg");
 }
 .top-icon{
     background: #fff;
@@ -75,7 +75,7 @@ select{
     width: 700px;
 }
 #mn{
-    size: 5px;
+    size: 10px;
 }
 #card{
     padding-top: 20px;
@@ -87,7 +87,7 @@ text-align: left;
 .presonal-left{
     width: 600px;
     margin:auto ;
-    padding: auto;
+    padding: 5px;
     position: absolute;
 }
 .card{
