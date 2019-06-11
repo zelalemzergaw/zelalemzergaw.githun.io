@@ -1,17 +1,40 @@
-var a = {
-    x: 10,
-    calculate: function (z) {
-    return this.x + this.y + z;
+"use strict"
+var bikeCreationModule = (function () {
+    var createBicyclePrototye = function () {
+        return {
+            speed: 0,
+            applyBrake: function (para) {
+                this.speed = this.speed - para;
+            },
+            speedUp: function (para) {
+                this.speed = this.speed + para;
+            }
+        }
     }
-    };
-    var b = {
-    y: 20,
-    __proto__: a
-    };
-    var c = {
-    y: 30,
-    __proto__: a
-    };
-    // call the inherited method
-    b.calculate(30); // 60
-    c.calculate(40); // 80
+
+    var createMountainBikeProtoype = function (parameter) {
+        var toReturn = Object.create(parameter);
+        toReturn.gear = 1;
+        toReturn.setGear = function (gearValue) {
+            this.gear = gearValue;
+        }
+        return toReturn;
+    }
+
+    var start = function () {
+        var bicyclePrototype = createBicyclePrototye();
+        var mountainBikePrototype = createMountainBikeProtoype(bicyclePrototype);
+
+        bicyclePrototype.speedUp(2);
+    }
+
+    return {
+        startProcess: start, 
+        createMountainBike : createMountainBikeProtoype, 
+        createBicycle : createBicyclePrototye
+    }
+})();
+
+var x = bikeCreationModule;
+x.startProcess();
+
