@@ -1,7 +1,7 @@
 .main{
   position: relative;
 
-    background-image: url("image/background.jpg");
+    background-image-image: url("images/background.jpg");
 }
 .top-icon{
     background: #fff;
@@ -21,7 +21,7 @@
 
 }
 .banner{
-    background-image: url("image/banner-background.jpg");
+    background-image: url("images/banner-background.jpg");
     height: 250px;
     background-repeat: repeat-x;
     text-align: center;
@@ -44,10 +44,10 @@ ul{
     display: inline;
 }
 #s{
-    list-style-image: url("image/locked.png");
+    list-style-image: url("images/locked.png");
 }
 #q{
-    list-style-image: url("image/locked.png");
+    list-style-image: url("images/locked.png");
 }
 #img1{
     margin-top:20px;
@@ -74,9 +74,9 @@ h2{
 select{
     width: 700px;
 }
-/* #mn{
-    size: 10px;
-} */
+#mn{
+    size: 5px;
+}
 #card{
     padding-top: 20px;
 }
@@ -87,7 +87,7 @@ text-align: left;
 .presonal-left{
     width: 600px;
     margin:auto ;
-    padding: 5px;
+    padding: auto;
     position: absolute;
 }
 .card{
@@ -110,16 +110,16 @@ input[type="submit"]{
     height: 40px;
     border-radius: 30px;
     font-weight: bold;
-    background: yellow;
+    background: darkblue;
 }
 input[type="reset"]{
     width: 100px;
     height: 40px;
     border-radius: 30px;
     font-weight: bold;
-    background: yellow;
+    background: darkblue;
 }
 footer{
     margin-top: 70px;
-  background-image: url("image/capitalone_logo.png");
+  background-image: url("images/capitalone_logo.png");
 }
