@@ -6,9 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f7dfb7d-b04f-4725-bfee-d71d6cc4dad5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../CsTechsupport/CsTechsupport.iml" afterDir="false" />
-    </list>
+    <list default="true" id="9f7dfb7d-b04f-4725-bfee-d71d6cc4dad5" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -328,12 +326,12 @@
       <updated>1560231352978</updated>
       <workItem from="1560231357145" duration="2811000" />
       <workItem from="1560264701790" duration="1168000" />
-      <workItem from="1560280541641" duration="1974000" />
+      <workItem from="1560280541641" duration="2682000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5953000" />
+    <option name="totallyTimeSpent" value="6661000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1719" height="932" extended-state="6" />
@@ -344,7 +342,7 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.5018797" side_tool="true" weight="0.5136139" />
       <window_info id="Web" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.4981203" visible="true" weight="0.104028866" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.4981203" visible="true" weight="0.104028866" />
       <window_info id="Structure" order="7" sideWeight="0.5006227" side_tool="true" weight="0.249549" />
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.3316583" />
@@ -356,7 +354,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" />
-      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.12826899" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.12826899" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
