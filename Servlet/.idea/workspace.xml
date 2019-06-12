@@ -6,7 +6,13 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f7dfb7d-b04f-4725-bfee-d71d6cc4dad5" name="Default Changelist" comment="" />
+    <list default="true" id="9f7dfb7d-b04f-4725-bfee-d71d6cc4dad5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../CsTechsupport/.idea/artifacts/CsTechsupport_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CsTechsupport/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CsTechsupport/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CsTechsupport/CsTechsupport.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../CsTechsupport/CsTechsupport.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CsTechsupport/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CsTechsupport/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -95,7 +101,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-12" />
     <option name="width" value="1944" />
     <option name="height" value="2082" />
@@ -334,7 +340,7 @@
     <option name="totallyTimeSpent" value="6661000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1719" height="932" extended-state="7" />
+    <frame x="-6" y="-6" width="1719" height="932" extended-state="6" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Image Layers" order="1" />
@@ -354,7 +360,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.12826899" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.12826899" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
