@@ -1,4 +1,5 @@
 import javax.servlet.ServletConfig;
+import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -30,22 +31,22 @@ public class CsTechSupport extends HttpServlet {
                 "\n" +
                 "input[type=submit] {\n" +
                 "  width: 100%;\n" +
-                "  background-color: #4CAF50;\n" +
+                "  background-color: green;\n" +
                 "  color: white;\n" +
                 "  padding: 14px 20px;\n" +
                 "  margin: 8px 0;\n" +
                 "  border: none;\n" +
-                "  border-radius: 4px;\n" +
+                "  border-radius: 5px;\n" +
                 "  cursor: pointer;\n" +
                 "}\n" +
                 "\n" +
                 "input[type=submit]:hover {\n" +
-                "  background-color: #45a049;\n" +
+                "  background-color: red;\n" +
                 "}\n" +
                 "\n" +
                 "div {\n" +
                 "  border-radius: 5px;\n" +
-                "  background-color: #f2f2f2;\n" +
+                "  background-color: orange;\n" +
                 "  padding: 20px;\n" +
                 "  width:400px;\n" +
                 "  margin: 100px auto auto auto;\n" +
@@ -87,9 +88,12 @@ public class CsTechSupport extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String name=req.getParameter("name");
-        String email= req.getParameter("email");
-        ServletConfig sc= this.getServletConfig();
+        String name = req.getParameter("name");
+        String email = req.getParameter("email");
+        ServletContext sc = this.getServletContext();
+        String support=sc.getInitParameter("support-email");
+
+       // ServletConfig sc = this.getServletConfig();
         PrintWriter out = resp.getWriter();
         out.print(
                 "<!DOCTYPE html>\n" +
@@ -117,7 +121,8 @@ public class CsTechSupport extends HttpServlet {
                         "<fieldset>\n" +
                         "    <legend>Support Request Submitted</legend>\n" +
                         "    <p>Thank you! " + name + " for contacting us. We should receive reply from us with in 24 hrs in your email address "+ email +  ". "
-                        + "Let us know in our support email "+  sc.getInitParameter("support-email") +" if you don't receive reply within 24 hrs. "
+                        + "Let us know in our support email "+  support
+                        +" if you don't receive reply within 24 hrs. "
                         + "Please be sure to attach your reference "+ ticketId() + " in your email.</p>\n" +
                         "</fieldset>\n" +
                         "\n" +
@@ -127,5 +132,6 @@ public class CsTechSupport extends HttpServlet {
         );
 
     }
+
 }
 

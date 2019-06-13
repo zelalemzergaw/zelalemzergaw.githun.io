@@ -7,7 +7,15 @@
     <servlet>
         <servlet-name>myservlet</servlet-name>
         <servlet-class>CsTechSupport</servlet-class>
+<!--        <init-param>-->
+<!--            <param-name> "support-email"</param-name>-->
+<!--            <param-value>cstech@gmail.com</param-value>-->
+<!--        </init-param>-->
     </servlet>
+    <context-param>
+        <param-name>support-email</param-name>
+        <param-value>cstech@gmail.com</param-value>
+    </context-param>
     <servlet-mapping>
         <servlet-name>myservlet</servlet-name>
         <url-pattern>/support</url-pattern>

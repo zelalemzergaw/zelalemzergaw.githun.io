@@ -8,10 +8,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>New intellij program</title>
   </head>
   <body>
-  $END$
   <a href='simple'>Start the simplest servlet app</a>
   </body>
 </html>
